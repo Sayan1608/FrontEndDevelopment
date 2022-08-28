@@ -1,0 +1,169 @@
+.top-container {
+    background-color: #CDF0EA;
+    position: relative;
+    padding-top: 100px;
+}
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 { 
+    margin: 0px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+}
+
+a {
+    color: #66BFBF;
+    text-decoration: none;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+    /* position: relative; */
+    height: 150px;
+    background-color: #11999E;
+    padding-top: 30px;
+}
+
+.bottom-container p {
+    /* position :absolute; */
+    color: #EAF6F6;
+    font-size: small;
+    margin-bottom: 0;
+    margin: 50px auto;
+    /* padding-bottom: 30px; */
+    
+}
+
+.bottom-container a {
+    margin-right: 10px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    height: 60px;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    height: 60px;
+}
+
+.mountain {
+    height: 400px;
+}
+
+#profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#skill-image1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#skill-image2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skill-row {
+    /* width: 50%; */
+    height: 220px;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+/* .skill-row > h3,.skill-row > p {
+    text-align: left;
+} */
+
+/* .skills1-description{
+    clear: left;
+}
+
+.skills2-description{
+    clear: right;
+} */
+
+.profile { 
+    text-align: center;
+    width: 50%;
+    margin: 100px auto;
+}
+
+.profile > p {
+    line-height: 2;
+}
+
+hr {
+    width: 6%;
+    border-width: 0px;
+    border-top-width: 10px;
+    border-top-style: dotted;
+    border-top-color: #EAF6F6;
+}
+
+.skills {
+     width: 50%;
+     margin: 100px auto;
+}
+
+.contact-me {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.contact-me p {
+    line-height: 2;
+}
+
+#contact-btn {
+    background-color: #11999E;
+    border: none;
+    height: 30px; 
+    border-radius: 8px; 
+    padding : 10px;
+    margin-top: 30px;  
+}
+
+#contact-btn > a {
+    color: white;
+}
+
